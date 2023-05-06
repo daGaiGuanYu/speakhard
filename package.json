@@ -16,17 +16,14 @@
       "email": "guy@cach.me"
     }
   ],
-  "homepage": "http://github.com/speakeasyjs/speakeasy",
-  "bugs": "https://github.com/speakeasyjs/speakeasy/issues",
+  "homepage": "https://github.com/daGaiGuanYu/speakhard",
+  "bugs": "https://github.com/daGaiGuanYu/speakhard/issues",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/speakeasyjs/speakeasy.git"
+    "url": "git://github.com/daGaiGuanYu/speakhard.git"
   },
   "main": "index.js",
-  "engines": {
-    "node": ">= 0.10.0"
-  },
   "dependencies": {
     "buffer": "^6.0.3",
     "base32.js": "0.0.1",

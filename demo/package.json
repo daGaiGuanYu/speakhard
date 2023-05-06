@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "webpack serve --open --config ./build/dev.js",
+    "pro": "webpack --config ./build/pro"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "speakhard": "file:../speakhard-0.0.0.tgz"
+  }
+}
