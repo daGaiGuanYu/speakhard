@@ -1,0 +1,1 @@
+exports.randomBytes = require('randombytes')

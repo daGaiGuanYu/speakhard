@@ -1,33 +1,23 @@
 {
-  "name": "speakeasy",
-  "description": "Two-factor authentication for Node.js. One-time passcode generator (HOTP/TOTP) with support for Google Authenticator.",
-  "version": "2.0.0",
+  "name": "speakhard",
+  "description": "fork from speakeasy, with some changes to make it work in browser",
+  "version": "0.0.0",
   "author": {
     "name": "Mark Bao & Speakeasy Contributors",
     "email": "mark@markbao.com"
   },
-  "contributors": [{
-    "name": "Michael Phan-Ba",
-    "email": "michael@mikepb.com"
-  }, {
-    "name": "Guy Halford-Thompson",
-    "email": "guy@cach.me"
-  }],
+  "contributors": [
+    {
+      "name": "Michael Phan-Ba",
+      "email": "michael@mikepb.com"
+    },
+    {
+      "name": "Guy Halford-Thompson",
+      "email": "guy@cach.me"
+    }
+  ],
   "homepage": "http://github.com/speakeasyjs/speakeasy",
   "bugs": "https://github.com/speakeasyjs/speakeasy/issues",
-  "keywords": [
-    "authentication",
-    "google authenticator",
-    "hmac",
-    "hotp",
-    "multi-factor",
-    "one-time password",
-    "passwords",
-    "totp",
-    "two factor",
-    "two-factor",
-    "two-factor authentication"
-  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -38,7 +28,9 @@
     "node": ">= 0.10.0"
   },
   "dependencies": {
-    "base32.js": "0.0.1"
+    "buffer": "^6.0.3",
+    "base32.js": "0.0.1",
+    "randombytes": "^2.1.0"
   },
   "devDependencies": {
     "chai": "^3.4.1",
