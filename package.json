@@ -1,7 +1,7 @@
 {
   "name": "speakhard",
   "description": "fork from speakeasy, with some changes to make it work in browser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Mark Bao & Speakeasy Contributors",
     "email": "mark@markbao.com"
@@ -25,9 +25,8 @@
   },
   "main": "index.js",
   "dependencies": {
-    "buffer": "^6.0.3",
     "base32.js": "0.0.1",
-    "randombytes": "^2.1.0"
+    "buffer": "^6.0.3"
   },
   "devDependencies": {
     "chai": "^3.4.1",
