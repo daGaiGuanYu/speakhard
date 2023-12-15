@@ -10,6 +10,6 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
-    "speakhard": "file:../speakhard-0.0.2.tgz"
+    "speakhard": "file:../speakhard-0.0.3.tgz"
   }
 }
