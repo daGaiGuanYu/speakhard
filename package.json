@@ -1,7 +1,7 @@
 {
   "name": "speakhard",
   "description": "fork from speakeasy, with some changes to make it work in browser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Mark Bao & Speakeasy Contributors",
     "email": "mark@markbao.com"

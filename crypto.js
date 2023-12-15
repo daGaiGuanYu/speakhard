@@ -1,5 +1,5 @@
-exports.randomBytes = function() {
-  const randomBytes = new Uint8Array(8)
+exports.randomBytes = function(length) {
+  const randomBytes = new Uint8Array(length)
   crypto.getRandomValues(randomBytes)
   return randomBytes
 }
