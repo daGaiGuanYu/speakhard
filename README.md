@@ -13,7 +13,7 @@
 
 ---
 
-Speakeasy is a one-time passcode generator, ideal for use in two-factor
+Speakeasy is a one-time passcode generator, ideal for use in two-factor.
 authentication, that supports Google Authenticator and other two-factor devices.
 
 It is well-tested and includes robust support for custom token lengths,
